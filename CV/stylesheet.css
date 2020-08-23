@@ -1,0 +1,22 @@
+h1 { text-align: center;
+     color: black;
+     border: solid black;
+     width: 50%;
+     margin: auto;
+
+}
+
+html { background-image: url(greyzz.png); }
+
+img { float: right;
+      border: solid black;
+      box-shadow: black 5px 5px 10px 2px;  
+}
+
+p,h2 { clear: both; }
+
+h2, h3, h4 { color: maroon; }
+
+a { font-weight: black;
+    text-decoration: none;  
+}

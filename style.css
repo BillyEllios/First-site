@@ -1,0 +1,117 @@
+/* Définition de la police */ 
+
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url('1942-webfont.eot');
+    src: url('1942-webfont.eot?#iefix') format('embedded-opentype'),
+         url('1942-webfont.woff2') format('woff2'),
+         url('1942-webfont.woff') format('woff'),
+         url('1942-webfont.ttf') format('truetype'),
+         url('1942-webfont.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Eléments principaux de la page*/
+
+html {
+    background: url('./images/fond_jaune.png');
+    font-family: '1942_report1942_report', Arial, sans-serif;
+    color: black;
+}
+
+#page_html {
+    width: 900px;
+    margin: auto;
+}
+
+/* Header : en-tête */
+
+header {
+    background: url('./images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img {
+    width: 59px;
+    height: 60px;
+}
+
+header h2 {
+    display: flex;
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 3px;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    color: red;
+    border-bottom-style: solid;
+}
+
+/* Bannière */
+
+#banniere_image {
+    background: url(./images/banniere_mini.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    border: solid black;
+    border-radius: 10px;
+    padding-bottom: 36%;
+}
+
+/* Corps */
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+aside {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 2px;
+    background-color:#706b64;
+    color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    padding: 15px;
+}
+
+#Auteur img {
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+/* Pied de page */
