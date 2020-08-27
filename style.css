@@ -96,6 +96,7 @@ nav a:hover {
 section {
     display: flex;
     margin-bottom: 20px;
+    margin: 20px;
 }
 
 aside {
@@ -107,6 +108,7 @@ aside {
     color: white;
     box-shadow: 0px 2px 5px #1c1a19;
     padding: 15px;
+    margin: 10px;
 }
 
 #Auteur img {
@@ -115,3 +117,45 @@ aside {
 }
 
 /* Pied de page */
+
+footer {
+    display: flex;
+    background: url('./images/separateur.png') repeat-x top;
+    padding-top: 25px;
+    margin: 15px;
+}
+
+footer h1, h2, h3 {
+   font-size: medium;
+}
+
+#post {
+    margin-right: 15px;
+}
+
+#post a {
+    text-decoration: none;
+}
+
+#photos {
+    width: 35%;
+}
+
+#photos img {
+    border: 1px solid #181818;
+    margin-right: 1px;
+}
+
+#mes_amis {
+    width: 30%;
+}
+
+#mes_amis a {
+    text-decoration: none;
+}
+
+#liste_amis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
